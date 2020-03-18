@@ -7,3 +7,4 @@
 - npm install --save-dev gulp-htmlmin
 - npm install --save-dev gulp-uglify
 - npm install --save-dev gulp-babel @babel/core @babel/preset-env
+- npm install --save-dev gulp-connect

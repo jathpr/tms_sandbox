@@ -1,11 +1,10 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
-const webserver = require('gulp-webserver');
 const htmlmin = require('gulp-htmlmin');
 const connect = require('gulp-connect');
 
-gulp.task('connect', function() {
+gulp.task('server', function() {
   connect.server({
     root: 'public',
     livereload: true
@@ -39,14 +38,4 @@ gulp.task('html', () => {
     .pipe(connect.reload());
 });
 
-gulp.task('default', gulp.parallel(['connect', 'watch']));
-
-gulp.task('webserver', function() {
-  gulp.src('./public/').pipe(
-    webserver({
-      livereload: true,
-      directoryListing: true,
-      open: true
-    })
-  );
-});
+gulp.task('default', gulp.parallel(['server', 'watch']));
