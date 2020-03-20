@@ -5,6 +5,7 @@
 ### 2. Прочитать и выполнить задания:
 
 https://learn.javascript.ru/while-for
+https://learn.javascript.ru/logical-operators
 
 ### 3. Задачи
 
