@@ -4,8 +4,30 @@
 
 ### 2. Прочитать и выполнить задания:
 
-https://learn.javascript.ru/while-for
-https://learn.javascript.ru/logical-operators
+https://learn.javascript.ru/while-for  
+https://learn.javascript.ru/logical-operators  
+нас пока не интересует приведение типов, дополнительные возможности языка
+
+Главное понимать, что
+
+```
+alert( true || true );   // true
+alert( false || true );  // true
+alert( true || false );  // true
+alert( false || false ); // false
+```
+
+```
+alert( true && true );   // true
+alert( false && true );  // false
+alert( true && false );  // false
+alert( false && false ); // false
+```
+
+```
+alert( !true ); // false
+alert( !false ); // true
+```
 
 ### 3. Задачи
 
