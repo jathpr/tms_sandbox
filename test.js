@@ -1,4 +1,5 @@
-let value = true;
-console.log('value', typeof value);
-value = String(value);
-console.log('value', typeof value);
+let age = 900;
+console.log('age', age);
+if (14 <= age <= 90) {
+  console.log(true);
+}
