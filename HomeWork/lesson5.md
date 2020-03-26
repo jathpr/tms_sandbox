@@ -6,6 +6,7 @@
    Написать инструкцию поиска по массиву data, с введенными в prompt данными;
    Если есть совпадение - вывести все данные этого пользователя в console.log;
    прим:
+```
    var data = [
    {
    firstName: 'Ashton',
@@ -21,9 +22,9 @@
    age: 24
    }
    ];
-
-user name: Ashton Kutcher.
-user age: 40.
+```
+user name: Ashton Kutcher.  
+user age: 40.  
 ● Если совпадения не произошло вывести console.log с ошибкой:
 “No results found for your request”
 
