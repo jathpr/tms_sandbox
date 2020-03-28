@@ -1,6 +1,7 @@
 ### 1. Теория и ссылки
 
-https://learn.javascript.ru/function-basics
+- теория - https://learn.javascript.ru/function-basics
+  не забываем про прекрасные задачи в конце
 
 - методы работы со строками - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String
 - методы работы с массивами - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array
