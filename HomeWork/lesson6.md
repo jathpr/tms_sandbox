@@ -1,6 +1,10 @@
-### 1. Теория
+### 1. Теория и ссылки
 
 https://learn.javascript.ru/function-basics
+
+- методы работы со строками - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String
+- методы работы с массивами - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array
+- математические методы - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math
 
 ### 2. Примеры с лекции
 
@@ -30,7 +34,7 @@ https://learn.javascript.ru/function-basics
 
 ### 4. Задача на Алгоритм
 
-https://github.com/rolling-scopes-school/guessing-game
+https://github.com/rolling-scopes-school/guessing-game  
 написать словами рабочий алгоритм программы (не использую конструкций языков программирования)
 
 ### 5. Путешествующие задачи
@@ -43,14 +47,22 @@ https://github.com/rolling-scopes-school/guessing-game
 
 ### PS
 
-Во вторник закрепляющее задание, разбираем все кто/что не понял за пройденную часть курса.
+Во вторник закрепляющее задание, разбираем всё кто/что не понял за пройденную часть курса.
 С четверга начинаем брать много нового, которое опирается на знание пройденного.
 Небольшое сравнение с реальностью - все что было сопоставимо с задачей "научиться ходить". Это базовое умение программирования. Как езда на велосипеде. Но скоро всё погрузится в пламя! Так что база должна быть доведена до автоматизма.
-Это нормально сейчас делать что-то медленно и вдумчиво, но эти любая из пройденных задач должна стать для вас очевидной в своей реализации.
+Это нормально сейчас делать что-то медленно и вдумчиво, но любая из пройденных задач должна стать для вас очевидной в своей реализации.
 
 Обратите внимание на всё что вы не понимаете до конца и спросите об этом в эти дни.
 Что б проверить понимание - мне нужны ваши домашние задания. Все результаты будут переданы менеджерам курса.
 Кто сможет решить все задания на это занятие готов к продолжению курса.
-Для кого они слишком сложны - пишите. Буду придумывать дополнительно более простые задачи на те области в которых не хватает знаний.
-Это очень важный момент, отнеситесь серьёзно. При должных усилиях весьма поддающийся пониманию.
+Для кого они слишком сложны - пишите. Буду придумывать дополнительно более простые задачи на те области в которых не хватает знаний.  
+Это очень важный момент, отнеситесь серьёзно. При должных усилиях весьма поддающийся.  
 Удачи!
+
+### Полезности для дз (если не выходит найти самим)
+
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/split
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/slice
