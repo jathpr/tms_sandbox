@@ -14,86 +14,22 @@ function sort(a, b) {
     return 0;
   }
 }
-
-function min(v1, v2) {
-  if (v1 < v2) {
-    return v1;
-  } else {
-    return v2;
-  }
+function sayHi() {
+  console.log('Привет');
 }
 
-let vil = [
-  [4, 6],
-  [5, 7],
-  [10, 8],
-  [11, 13],
-  [14, 16]
-];
+setTimeout(sayHi, 1000);
 
-{
-  const element = vil[0];
-  const t1 = element[0];
-  const t2 = element[1];
-  let min1;
-  if (t1 < t2) {
-    min1 = t1;
-  } else {
-    min1 = t2;
-  }
+function makeCounter() {
+  let count = 0;
 
-  console.log(min1);
-}
-{
-  const element = vil[1];
-  const t1 = element[0];
-  const t2 = element[1];
-  let min1;
-  if (t1 < t2) {
-    min1 = t1;
-  } else {
-    min1 = t2;
-  }
-
-  console.log(min1);
+  return function() {
+    return count++; // есть доступ к внешней переменной "count"
+  };
 }
 
-{
-  const element = vil[2];
-  const t1 = element[0];
-  const t2 = element[1];
-  let min1;
-  if (t1 < t2) {
-    min1 = t1;
-  } else {
-    min1 = t2;
-  }
+let counter = makeCounter();
 
-  console.log(min1);
-}
-{
-  const element = vil[3];
-  const t1 = element[0];
-  const t2 = element[1];
-  let min1;
-  if (t1 < t2) {
-    min1 = t1;
-  } else {
-    min1 = t2;
-  }
-
-  console.log(min1);
-}
-{
-  const element = vil[4];
-  const t1 = element[0];
-  const t2 = element[1];
-  let min1;
-  if (t1 < t2) {
-    min1 = t1;
-  } else {
-    min1 = t2;
-  }
-
-  console.log(min1);
-}
+alert(counter()); // 0
+alert(counter()); // 1
+alert(counter()); // 2
