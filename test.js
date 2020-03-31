@@ -1,34 +1,99 @@
 'use strict';
-const x = 1;
-console.log(x);
+
+let num = [5, 4, 6, 9, 8, 1, 2, 10, 3, 7];
+num.sort(sort);
+console.log(num);
+
+function sort(a, b) {
+  if (a - b < 0) {
+    return -1;
+  }
+  if (a - b > 0) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+
+function min(v1, v2) {
+  if (v1 < v2) {
+    return v1;
+  } else {
+    return v2;
+  }
+}
+
+let vil = [
+  [4, 6],
+  [5, 7],
+  [10, 8],
+  [11, 13],
+  [14, 16]
+];
+
 {
-  const x = 12;
-  console.log(x);
+  const element = vil[0];
+  const t1 = element[0];
+  const t2 = element[1];
+  let min1;
+  if (t1 < t2) {
+    min1 = t1;
+  } else {
+    min1 = t2;
+  }
+
+  console.log(min1);
 }
-console.log(x);
 {
-  // a = 12;
-  // console.log('a', a);
+  const element = vil[1];
+  const t1 = element[0];
+  const t2 = element[1];
+  let min1;
+  if (t1 < t2) {
+    min1 = t1;
+  } else {
+    min1 = t2;
+  }
+
+  console.log(min1);
 }
 
-const foo = 7;
-const bar = {
-  foo: 7,
-  bar: 'rt'
-};
+{
+  const element = vil[2];
+  const t1 = element[0];
+  const t2 = element[1];
+  let min1;
+  if (t1 < t2) {
+    min1 = t1;
+  } else {
+    min1 = t2;
+  }
 
-edite(foo);
-edite(bar);
-
-function edite(inp) {
-  if (typeof inp !== 'number') inp.foo = 11;
-  else inp = 11;
-
-  console.log('inp', inp);
+  console.log(min1);
 }
-console.log('edite -> edite', edite);
+{
+  const element = vil[3];
+  const t1 = element[0];
+  const t2 = element[1];
+  let min1;
+  if (t1 < t2) {
+    min1 = t1;
+  } else {
+    min1 = t2;
+  }
 
-console.log('foo', foo);
-console.log('bar', bar);
+  console.log(min1);
+}
+{
+  const element = vil[4];
+  const t1 = element[0];
+  const t2 = element[1];
+  let min1;
+  if (t1 < t2) {
+    min1 = t1;
+  } else {
+    min1 = t2;
+  }
 
-const show = () => console.log('a');
+  console.log(min1);
+}
