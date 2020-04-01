@@ -3,9 +3,6 @@
 1. Важно знать и понимать:
 
 - статья про пройденное - https://learn.javascript.ru/javascript-specials
-
-Ключевые разделы:
-
 - ifelse - https://learn.javascript.ru/ifelse
 - while-for - https://learn.javascript.ru/while-for
 - функции - https://learn.javascript.ru/https://learn.javascript.ru/function-basics
@@ -29,7 +26,9 @@
 4. Написать функцию которая принимает функцию и два числа. Возвращает результат выполнения переданной функции для этих чисел.
 
 Пример для уже написанной ф-ции calc:
+```
 const min = (x,y) => x<y ? x : y;
 const res = calc(min, 3, 11) // res должно быть равно 3
+```
 
 5. Подборка задач на пройденные темы [тут](https://github.com/jathpr/tms_sandbox/blob/master/ClassWork/Lesson7/tasks.md). Вы должны уметь описать словами алгоритм решения каждой задачи и сказать какие конструкции языка для этого понадобятся.
