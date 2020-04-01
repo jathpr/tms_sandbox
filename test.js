@@ -14,11 +14,12 @@ function sort(a, b) {
     return 0;
   }
 }
+
 function sayHi() {
   console.log('Привет');
 }
 
-setTimeout(sayHi, 1000);
+// setTimeout(sayHi, 1000);
 
 function makeCounter() {
   let count = 0;
@@ -29,7 +30,11 @@ function makeCounter() {
 }
 
 let counter = makeCounter();
+console.log('counter', counter);
+console.log('counter', counter());
+console.log('counter', counter());
+console.log('counter', counter());
 
-alert(counter()); // 0
-alert(counter()); // 1
-alert(counter()); // 2
+// alert(counter()); // 0
+// alert(counter()); // 1
+// alert(counter()); // 2
