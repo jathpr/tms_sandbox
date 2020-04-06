@@ -11,5 +11,6 @@
   "[typescriptreact]": {
     "editor.formatOnSave": true
   },
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120
 }
