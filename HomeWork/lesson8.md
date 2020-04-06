@@ -3,3 +3,4 @@
 - навигация по дому - https://learn.javascript.ru/dom-navigation
 - поиск элементов в ДОМе - https://learn.javascript.ru/searching-elements-dom
 - изменение страницы - https://learn.javascript.ru/modifying-document
+- события - https://learn.javascript.ru/introduction-browser-events
