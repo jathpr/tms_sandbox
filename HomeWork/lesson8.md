@@ -1,0 +1,5 @@
+- общее представление о среде браузера - https://learn.javascript.ru/browser-environment
+- разбор дом дерева, информация о работе с меню разработчика - https://learn.javascript.ru/dom-nodes
+- навигация по дому - https://learn.javascript.ru/dom-navigation
+- поиск элементов в ДОМе - https://learn.javascript.ru/searching-elements-dom
+- изменение страницы - https://learn.javascript.ru/modifying-document

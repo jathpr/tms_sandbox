@@ -1,1 +1,1 @@
-"use strict";console.log("kivi2");
+"use strict";console.log(window),document.body.style.background="red",console.log("document.body",document.body),setTimeout(function(){return document.body.style.background=""},3e3);
