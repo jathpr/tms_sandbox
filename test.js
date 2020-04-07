@@ -1,5 +1,33 @@
 // 'use strict';
 
+// const user = {
+//   name: 'Me',
+//   say() {
+//     return this.name;
+//   },
+// };
+// console.log('user', user.toString());
+// console.log('user', '' + user);
+
+// user.toString = function () {
+//   return `{name: "${this.name}"}`;
+// };
+// console.log('user', user.toString());
+// console.log('user', '' + user);
+
+function User(name) {
+  this.name = name;
+  this.isAdmin = false;
+}
+
+let user = new User('Вася');
+
+console.log(user.name); // Вася
+console.log(user.isAdmin); // false
+
+const u2 = User('fds');
+console.log('u2', u2);
+
 // let num = [5, 4, 6, 9, 8, 1, 2, 10, 3, 7];
 // num.sort(sort);
 // console.log(num);
@@ -39,16 +67,16 @@
 // // alert(counter()); // 1
 // // alert(counter()); // 2
 
-const n = 2;
-const m = 3;
+// const n = 2;
+// const m = 3;
 
-const arr = new Array(n);
+// const arr = new Array(n);
 
-for (let i = 0; i < arr.length; i++) {
-  arr[i] = new Array(m);
-  for (let j = 0; j < arr[i].length; j++) {
-    arr[i][j] = j;
-  }
-}
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i] = new Array(m);
+//   for (let j = 0; j < arr[i].length; j++) {
+//     arr[i][j] = j;
+//   }
+// }
 
-console.log(arr);
+// console.log(arr);
