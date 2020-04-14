@@ -1,5 +1,6 @@
 ### Теория
 
+- что такое контекст ф-ции - https://learn.javascript.ru/closure
 - привязка контекста - https://learn.javascript.ru/bind
 - вызов ф-ции с заданным контекстом - https://learn.javascript.ru/call-apply-decorators
   про декораторы факультативно. Тема интересная, но до четверга мало времени
