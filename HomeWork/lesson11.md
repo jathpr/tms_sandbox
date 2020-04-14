@@ -5,6 +5,7 @@
   про декораторы факультативно. Тема интересная, но до четверга мало времени
 - стрелочные ф-ции - https://learn.javascript.ru/arrow-functions
 
+- методы массива - https://learn.javascript.ru/array-methods#preobrazovanie-massiva
 - мап - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 - редьюс - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
