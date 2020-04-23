@@ -4,8 +4,9 @@ class Clock {
   }
 
   start() {
-    this.render();
-    this.timer = setInterval(() => this.render(), 1000);
+    const render2 = this.render.bind(clock);
+    render2();
+    this.timer = setInterval(render2, 1000);
   }
 
   stop() {
@@ -31,4 +32,5 @@ class Clock {
 }
 
 let clock = new Clock({ template: 'h:m:s' });
+let clock2 = new Clock({ template: 'hh:m:s' });
 clock.start();

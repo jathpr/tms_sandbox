@@ -18,5 +18,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-webserver": "^0.9.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-static": "^0.7.11"
+  }
 }
