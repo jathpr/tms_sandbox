@@ -14,7 +14,7 @@
     }
   };
 
-  const getSimbol = move => {
+  const getSimbol = (move) => {
     if (move % 2 === 0) {
       const cross = document.createElement('div');
       cross.className = 'cross';
@@ -29,7 +29,7 @@
     const cell = document.getElementsByClassName('cell');
 
     for (let i = 0; i < cell.length; i++) {
-      cell[i].addEventListener('click', function() {
+      cell[i].addEventListener('click', function () {
         if (!this.innerHTML) {
           this.append(getSimbol(moveNumber));
           moveNumber = ++moveNumber;
@@ -38,6 +38,13 @@
     }
   };
 
-  createField();
-  makeMove();
+  const w = async () => {
+    await new Promise((r) => setTimeout(r, 1000));
+    createField();
+    makeMove();
+  };
+
+  w();
+
+  throw new Error();
 })();

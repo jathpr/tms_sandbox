@@ -1,45 +1,23 @@
-const arr = [0, 1, 5];
+'use strict';
+// const x = require('./expo');
 
-// arr.forEach((el) => console.log(el));
+let promise = new Promise(function (resolve, reject) {
+  // setTimeout(() => resolve(1), 500);
+});
 
-// for (let index = 0; index < arr.length; index++) {
-//   const element = arr[index];
-//   if (index !== arr.length - 1) {
-//     forArr[index] = element + arr[index + 1];
-//   } else {
-//     forArr[index] = element;
-//   }
-// }
-
-const forArr = new Array(arr.length);
-for (let index = 0; index < arr.length; index++) {
-  const element = arr[index];
-  forArr[index] = addOne(element, index, arr);
+function onError(error) {
+  console.log('onError -> error', error);
 }
 
-console.log('forArr', forArr);
-
-function addOne(el, index, array) {
-  console.log('------------');
-  console.log('addOne -> array', array);
-  console.log('addOne -> index', index);
-  console.log('addOne -> el', el);
-  console.log('------------');
-  return el + 1;
+function onSuccess(data) {
+  console.log('onSuccess -> data', data);
 }
 
-const newArr = arr.map(addOne);
+(async () => {
+  let url = 'https://api.github.com/repos/javascript-tutorial/en.javascript.info/commits';
+  let response = await fetch(url);
 
-// // function addOne(el) {
-// //   return el + 1;
-// // }
+  let commits = await response.json(); // читаем ответ в формате JSON
 
-console.log('newArr', newArr); //newArr === [1,6,5]
-
-// const sum = arr.reduce((pv, cv) => pv + cv, 0);
-// console.log('sum', sum);
-
-// const obj = arr.reduce((pv, cv, index) => ({ ...pv, [index]: cv }), {});
-// console.log('obj', obj);
-
-// // написать функцию которая перемножает все отрицательные значения в массиве используя reduce
+  console.log(commits[0].author.login);
+})();
