@@ -9,7 +9,7 @@
 
 ### Задачи по ф-циям
 
-1. Каррирование. Подробности в [задачах 6,7](https://github.com/jathpr/tms_sandbox/blob/master/ClassWork/lesson15/js/tasks.md) )
+1. Каррирование. Подробности в [задачах 6,7](https://github.com/jathpr/tms_sandbox/blob/master/ClassWork/Lesson15/js/tasks.md) 
 2. Дебаунсер - Возвращает функцию, которая запустит входную функцию только выдержав паузу после своего последнего запуска. (устранение дребезжания)
 
 ### Задачи по объектам
