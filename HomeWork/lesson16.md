@@ -9,7 +9,7 @@
 new Date() - создает дату с текущим временем системы  
 new Date('string representation of date') - создает дату с указанными параметрами
 
-Альтернатива - библиотека (momentjs)[https://momentjs.com/]  
+Альтернатива - библиотека [momentjs](https://momentjs.com/)  
 moment() - создает дату с текущим временем системы  
 moment().format('MMMM Do YYYY, h:mm:ss a'); - приводит дату к указанному формату
 
