@@ -19,6 +19,9 @@
     "gulp-webserver": "^0.9.1"
   },
   "dependencies": {
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
     "node-fetch": "^2.6.0",
     "node-static": "^0.7.11"
   }

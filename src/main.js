@@ -39,12 +39,17 @@
   };
 
   const w = async () => {
-    await new Promise((r) => setTimeout(r, 1000));
+    await new Promise((r) => setTimeout(r, 0));
     createField();
     makeMove();
+    $('.field').slideUp(3000);
   };
 
   w();
-
-  throw new Error();
+  $('#button')
+    .html('<p>Новье!</p>')
+    .hide(1000)
+    .show(1000)
+    .toggle(100)
+    .on('click', () => {});
 })();
